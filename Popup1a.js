@@ -110,26 +110,26 @@ var divpopup = document.createElement("div");
 jQuery(divpopup).attr('id', 'myModalthanh');
 jQuery(divpopup).attr('class', 'thanhfaceseo-modal');
 jQuery( "body" ).append(divpopup);
-var titleform='Ğãng k? Form';
+var titleform='ÄÄƒng kÃ½ Form';
 var urlform="https://docs.google.com/forms/u/1/d/e/1FAIpQLScGtwu5BwwtjYfbHy-T9It_LngGEnPsLxSwxURjTqS_o28_qg/formResponse";
 var urlchuyen=window.location.href;
 var hovaten="2125338388";
 var dienthoai="1396073372";
 var email="117371894";
 var duan="610712223";
-var submittitle='Ğãng k? tı v?n';
+var submittitle='ÄÄƒng kÃ½ tÆ° váº¥n';
 var submittedformthanh=false;
-var titleheader="ĞÃNG K? Tİ V?N NH?N İU Ğ?I";
+var titleheader="ÄÄ‚NG KÃ TÆ¯ Váº¤N NHáº¬N Æ¯U ÄÃƒI";
 var hotline="0988776655";
 var linkhientai=window.location.href;
 var thoigiancookie=1;
 var thoigianhien=60000;
-var formdiv='<div class="popup-body"><iframe id="hidden_iframethanh" name="hidden_iframethanh" onload="thanhxet()" style="display:none;"></iframe><div class="box-thanh-form"><div class="img"></div><div class="thanhform-level1"><h2><a class="close-thanhfaceseo-modal">X</a></h2></div><div id="cems-subscription" class="cems-subscription"><div class="sss-form-content thanhgform_wrapper"> <form class="form-hasBg" onsubmit="submittedformthanh=true;" target="hidden_iframethanh" method="post" action="'+urlform+'"><div class="gform_body"><h2 class="form-title yellow-text-gradient">'+titleheader+'</h2><div class="description">					<p>Vui l?ng ği?n chính xác các thông tin bên dı?i ğ? nh?n tài li?u c?a d? án</p>				</div>     <ul class="thanhtop_label"> ';
-formdiv+= '<li class="sss-form-control gfield ">  <div class="sss-form-control-inner">                               <div class="ginput_container">                  <input class="medium" name="entry.'+hovaten+'" maxlength="70" id="your_name" placeholder="H? tên" value="" type="text">                </div>              </div>            </li> ';
+var formdiv='<div class="popup-body"><iframe id="hidden_iframethanh" name="hidden_iframethanh" onload="thanhxet()" style="display:none;"></iframe><div class="box-thanh-form"><div class="img"></div><div class="thanhform-level1"><h2><a class="close-thanhfaceseo-modal">X</a></h2></div><div id="cems-subscription" class="cems-subscription"><div class="sss-form-content thanhgform_wrapper"> <form class="form-hasBg" onsubmit="submittedformthanh=true;" target="hidden_iframethanh" method="post" action="'+urlform+'"><div class="gform_body"><h2 class="form-title yellow-text-gradient">'+titleheader+'</h2><div class="description">					<p>Vui lÃ²ng Ä‘iá»n chÃ­nh xÃ¡c cÃ¡c thÃ´ng tin bÃªn dÆ°á»›i Ä‘á»ƒ nháº­n tÃ i liá»‡u cá»§a dá»± Ã¡n</p>				</div>     <ul class="thanhtop_label"> ';
+formdiv+= '<li class="sss-form-control gfield ">  <div class="sss-form-control-inner">                               <div class="ginput_container">                  <input class="medium" name="entry.'+hovaten+'" maxlength="70" id="your_name" placeholder="Há» tÃªn" value="" type="text">                </div>              </div>            </li> ';
 formdiv+= '<li class="sss-form-control gfield ">              <div class="sss-form-control-inner">                              <div class="ginput_container">                  <input class="medium" name="entry.'+email+'" maxlength="320" id="email_addr" placeholder="Email" value="" type="email">                </div>              </div>            </li> ';
-formdiv+= ' <li class="sss-form-control gfield ">              <div class="sss-form-control-inner">                                <div class="ginput_container">                  <input class="medium" name="entry.'+dienthoai+'" maxlength="15" id="your_phone" placeholder="S? ği?n tho?i" value="" length="11" type="tel">                </div>              </div>            </li>';
+formdiv+= ' <li class="sss-form-control gfield ">              <div class="sss-form-control-inner">                                <div class="ginput_container">                  <input class="medium" name="entry.'+dienthoai+'" maxlength="15" id="your_phone" placeholder="Sá»‘ Ä‘iá»‡n thoáº¡i" value="" length="11" type="tel">                </div>              </div>            </li>';
 
-formdiv+= ' <li class="sss-form-control gfield thanhan">              <div class="sss-form-control-inner">                                <div class="ginput_container">                  <input class="medium" name="entry.'+duan+'" maxlength="15" id="your_phone" placeholder="D? án" value="'+linkhientai+'" length="11" type="tel">                </div>              </div>            </li>';
+formdiv+= ' <li class="sss-form-control gfield thanhan">              <div class="sss-form-control-inner">                                <div class="ginput_container">                  <input class="medium" name="entry.'+duan+'" maxlength="15" id="your_phone" placeholder="Dá»± Ã¡n" value="'+linkhientai+'" length="11" type="tel">                </div>              </div>            </li>';
 
 
 formdiv+= '</ul>        </div>        <div class="gform_footer">          <div class="sss-form-control last" style="text-align:center;">            <input value="'+submittitle+'" type="submit">          </div><span style="display:inline-block">HOTLINE:</span> <a href="tel:'+hotline+'" class="hotlinegoi" style="display:inline-block"> '+hotline+'</a>    </div>      </form>    </div>  </div></div></div>';
